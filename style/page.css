@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+.debugger{
+    width: 400px;
+    height: 40px;
+    user-select: none;
+    border-radius: 5px;
+    position: absolute;
+    background-color:#000000;
+    box-shadow: 0 2px 5px rgba(92, 92, 92, 0.9)
+}
+.debugger .titlebar{
+    width: 400px;
+    cursor: grab;
+    line-height: 40px;
+    text-align: center;
+}
+.debugger .title{
+    color:#FFFFFF;
+    display: inline;
+}
